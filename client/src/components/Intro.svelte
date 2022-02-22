@@ -5,7 +5,7 @@
   <div><img src="./cloud.png" alt="cloud" /></div>
   <div id="intro-text">
     <h1>
-      BRINGING THE <br /> <span class="emphasis">CLOUD</span> <br /> TO <br />
+      LINKING THE <br /> <span class="emphasis">CLOUD</span> <br /> TO <br />
       <span class="emphasis">YOUR SCHOOL</span>
     </h1>
   </div>

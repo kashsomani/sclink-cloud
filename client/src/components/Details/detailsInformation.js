@@ -7,7 +7,7 @@ export const detailsInformation = [
       has triggered. 
       <br> 
        We aim to equip schools to leverage cloud-based technologies
-      to not only make schools more effient and better equipped, but to also
+      to not only make schools more efficient and better equipped, but to also
       strengthen their brand and reach.`,
   },
   {

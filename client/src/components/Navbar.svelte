@@ -7,9 +7,7 @@
       <img src="./logo.png" alt="logo" />
     </div>
     <div>
-      S
-      <span class="logo-c">C</span>
-      LINK
+      S<span class="logo-c">C</span>LINK
     </div>
   </div>
 </div>
@@ -24,7 +22,8 @@
   #container {
     background-color: #0a0925;
     color: #00969b;
-    @apply p-2 m-0 h-20 grid grid-cols-12 place-items-center gap-0;
+    border-bottom: 2px solid #00969b;
+    @apply p-2 px-4 m-0 h-20 grid grid-cols-12 place-items-center gap-0;
   }
   .logo-c {
     font-family: "Stick No Bills";

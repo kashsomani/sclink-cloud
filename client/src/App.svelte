@@ -1,7 +1,7 @@
 <script>
   import Navbar from "./components/Navbar.svelte";
   import Intro from "./components/Intro.svelte";
-  import Details from "./components/Details.svelte";
+  import Details from "./components/Details/index.svelte";
 </script>
 
 <svelte:head>
@@ -23,7 +23,6 @@
 
   main {
     color: white;
-    background-color: #0e1535;
-    @apply p-0 m-0 h-full;
+    @apply p-0 m-0 h-screen;
   }
 </style>

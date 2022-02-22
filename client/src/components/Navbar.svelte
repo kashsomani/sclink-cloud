@@ -10,7 +10,6 @@
     @apply grid grid-cols-1 place-items-center;
   }
   #container {
-    background-color: #0a0925;
     color: #00969b;
     border-bottom: 2px solid #00969b;
     @apply p-2 px-4 m-0 h-20 grid grid-cols-12 place-items-center gap-0;

@@ -1,16 +1,6 @@
 <script>
-</script>
 
-<div id="container">
-  <div id="heading">
-    <div>
-      <img src="./logo.png" alt="logo" />
-    </div>
-    <div>
-      S<span class="logo-c">C</span>LINK
-    </div>
-  </div>
-</div>
+</script>
 
 <style lang="postcss" scoped>
   img {
@@ -26,6 +16,17 @@
     @apply p-2 px-4 m-0 h-20 grid grid-cols-12 place-items-center gap-0;
   }
   .logo-c {
-    font-family: "Stick No Bills";
+    font-family: 'Stick No Bills';
   }
 </style>
+
+<div id="container">
+  <div id="heading">
+    <div>
+      <img src="./logo.png" alt="logo" />
+    </div>
+    <div>
+      S<span class="logo-c">C</span>LINK
+    </div>
+  </div>
+</div>

@@ -13,5 +13,6 @@ export const detailsInformation = [
   {
     //must be last
     heading: '&nbsp Our Products',
-    text: ''},
+    text: '',
+  },
 ]

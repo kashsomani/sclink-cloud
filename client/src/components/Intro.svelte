@@ -1,15 +1,6 @@
 <script>
-</script>
 
-<div id="container">
-  <div><img src="./cloud.png" alt="cloud" /></div>
-  <div id="intro-text">
-    <h1>
-      LINKING THE <br /> <span class="emphasis">CLOUD</span> <br /> TO <br />
-      <span class="emphasis">YOUR SCHOOL</span>
-    </h1>
-  </div>
-</div>
+</script>
 
 <style lang="postcss" scoped>
   img {
@@ -33,3 +24,20 @@
     @apply p-2 m-6;
   }
 </style>
+
+<div id="container">
+  <div>
+    <img src="./cloud.png" alt="cloud" />
+  </div>
+  <div id="intro-text">
+    <h1>
+      LINKING THE
+      <br />
+      <span class="emphasis">CLOUD</span>
+      <br />
+      TO
+      <br />
+      <span class="emphasis">YOUR SCHOOL</span>
+    </h1>
+  </div>
+</div>

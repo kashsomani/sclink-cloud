@@ -1,5 +1,4 @@
 <script>
-  import { tick } from 'svelte'
 
   let tableData = [
     {
@@ -43,7 +42,7 @@
 <style lang="postcss" scoped>
   #table-container {
     background-color: rgba(52, 72, 73, 0.25);
-    @apply grid grid-cols-1 place-items-center text-center p-2 text-base md:text-xl m-4 rounded-lg;
+    @apply grid grid-cols-1 place-items-center text-center p-2 text-base sm:text-xl m-4 rounded-lg;
   }
   table td,
   table th {
@@ -55,10 +54,10 @@
     @apply px-3;
   }
   table :global(img) {
-    @apply h-6 w-9 md:h-8 md:w-12;
+    @apply h-6 w-9 sm:h-8 sm:w-12;
   }
   table :global(.img-container) {
-    @apply grid grid-cols-1 place-items-center p-1 md:p-6;
+    @apply grid grid-cols-1 place-items-center p-1 sm:p-6;
   }
   #extra-th {
     border-right: none;

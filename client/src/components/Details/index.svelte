@@ -1,7 +1,6 @@
 <script>
   import { detailsInformation } from './detailsInformation.js'
-  import ProductDetails from './ProductDetails.svelte'
-  import Table from './Table.svelte'
+  import Table from './components/Table.svelte'
 </script>
 
 <style lang="postcss" scoped>
@@ -9,7 +8,8 @@
     @apply  ml-8 mb-6;
   }
   #container {
-    @apply mx-0 text-xl pb-2;
+    
+    @apply mx-0 sm:text-xl pb-2;
   }
   .heading {
     border-bottom: 3px solid #00969b;
@@ -31,5 +31,4 @@
     <Table/>
     {/if}
   {/each}
-  <ProductDetails />
 </div>

@@ -13,13 +13,17 @@ export const detailsInformation = [
   {
     //must be last
     heading: ' Our Products',
-    text: ` We offer different tiers of infrastructure based on our customers' needs.
-    <br>
-     We also understand that everyone is different, and we actively work with our clients
-    to find the perfect match for their needs.
-    <br>
-    <br>
-    <div class="grid grid-cols-1 place-items-center">Some of our most popular tiers:</div>
+    text: `
+        Our products range from public webpages to strengthen branding, to intricate automated cloud infrastructure
+        to future proof schools; all while making it secure and easy to use.
+      <br>
+        We offer different tiers of infrastructure based on our customers' needs.
+      <br>
+        We also understand that everyone is different, and we actively work with our clients
+        to find the perfect match for their needs.
+      <br>
+      <br>
+        <div class="grid grid-cols-1 place-items-center">Some of our most popular tiers:</div>
     `,
     table:true
   },

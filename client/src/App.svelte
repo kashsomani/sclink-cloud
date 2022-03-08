@@ -10,7 +10,7 @@
   @tailwind utilities;
 
   main {
-    color: rgb(167, 167, 167);
+    color: rgb(192, 187, 187);
     @apply p-0 m-0 h-screen;
   }
 </style>

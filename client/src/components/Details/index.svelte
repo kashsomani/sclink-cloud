@@ -5,11 +5,10 @@
 
 <style lang="postcss" scoped>
   .detail-text {
-    @apply  ml-8 mb-6;
+    @apply  mx-8 mb-6;
   }
   #container {
-    
-    @apply mx-0 sm:text-xl pb-2;
+    @apply mx-0 sm:text-xl pb-2 text-justify px-6;
   }
   .heading {
     border-bottom: 3px solid #00969b;

@@ -47,7 +47,7 @@
   table td,
   table th {
     border-right: 1px solid #00818a;
-    @apply p-2 py-3;
+    @apply py-3 px-4;
   }
   table th {
     border-bottom: 1px solid #00818a;

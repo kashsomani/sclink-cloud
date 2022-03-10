@@ -9,6 +9,12 @@ export const detailsInformation = [
        We aim to equip schools to leverage cloud-based technologies
       to not only make schools more efficient and better equipped, but to also
       strengthen their brand and reach.`,
+      illustration:true,
+      illustrationText:`
+      You can think of Sclink as the medium between your school and the cloud.
+      <br>
+      Best illustrated in the picture above
+      `
   },
   {
     heading: 'From the Founder',
@@ -20,8 +26,8 @@ export const detailsInformation = [
       <br> 
        So back in 2021 I started a new mission to solve this important problem and since 
        then have been working with schools in the locality to leverage cloud based solutions 
-       to solve business problems and help deliver more value to not only students but employees 
-       of these schools.
+       to solve business problems and help deliver more value to not only the students but also the 
+       employees of these schools.
        `,
   },
   {

@@ -5,7 +5,10 @@
 
 <style lang="postcss" scoped>
   .detail-text {
-    @apply  mx-8 mb-6;
+    @apply mx-8 mb-6;
+  }
+  .detail{
+    @apply my-4;
   }
   #container {
     @apply mx-0 sm:text-xl pb-2 text-justify px-6;
@@ -14,20 +17,32 @@
     border-bottom: 3px solid #00969b;
     @apply mx-4 mb-2;
   }
+  img {
+    @apply px-16;
+  }
 </style>
 
 <div id="container">
   {#each detailsInformation as detail}
-    <div class="heading">
-      <h2>
-        {@html detail.heading}
-      </h2>
+    <div class="detail">
+      <div class="heading">
+        <h2>
+          {@html detail.heading}
+        </h2>
+      </div>
+      <div class="detail-text">
+        {@html detail.text}
+      </div>
+      {#if detail.illustration}
+        <div>
+          <img src="./linking-illustration.png" alt="" />
+  
+        </div>
+        <div class="detail-text text-center">{@html detail.illustrationText}</div>
+      {/if}
+      {#if detail.table}
+        <Table />
+      {/if}
     </div>
-    <div class="detail-text">
-      {@html detail.text}
-    </div>
-    {#if detail.table}
-    <Table/>
-    {/if}
   {/each}
 </div>

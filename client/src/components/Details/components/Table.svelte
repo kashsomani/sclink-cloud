@@ -41,7 +41,7 @@
 
 <style lang="postcss" scoped>
   #table-container {
-    background-color: rgba(52, 72, 73, 0.25);
+    background-color: rgba(1, 76, 80, 0.776);
     @apply grid grid-cols-1 place-items-center text-center p-2 text-xs sm:text-lg  md:text-xl m-2 md:m-12 lg:m-16 rounded-lg;
   }
   table td,

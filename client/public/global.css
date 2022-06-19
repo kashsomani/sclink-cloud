@@ -36,7 +36,7 @@ body {
 	padding:0;
 	box-sizing: border-box;
   background: rgb(2,0,36);
-background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(0,150,144,1) 93%, rgba(0,212,255,1) 100%);background-repeat: no-repeat;
+background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(0,150,144,1) 93%, rgb(1, 151, 181) 100%);background-repeat: no-repeat;
     background-attachment: fixed;
 		overflow-x:hidden;
 	font-family: 'Roboto Condensed', 'Saira Stencil One';

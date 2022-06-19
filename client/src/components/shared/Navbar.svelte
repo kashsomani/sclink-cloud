@@ -16,6 +16,14 @@
   .logo-c {
     font-family: 'Stick No Bills';
   }
+  button{
+    border: 2px solid #00969b;
+    @apply w-full text-white;
+  }
+  button:hover{
+    background-color: rgba(31, 44, 71, 0.1);
+    box-shadow: 0 0 10px #22bef1, 0 0 40px #22bef1, 0 0 80px #22bef1;
+  }
 </style>
 
 <div id="container">
@@ -27,4 +35,14 @@
       S<span class="logo-c">C</span>LINK
     </div>
   </div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <button>QA</button>
 </div>

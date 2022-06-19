@@ -5,7 +5,7 @@ import QA from "../QA/QA.svelte"
 export const routes = {
     // Exact path
     '/': Home,
-    'support': Support,
-    'Q&A': QA
+    '/support': Support,
+    '/Q&A': QA
 
 }

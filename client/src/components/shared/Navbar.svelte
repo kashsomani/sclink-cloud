@@ -29,7 +29,7 @@
 <div id="container">
   <div id="heading">
     <div>
-      <img src="./logo.png" alt="logo" />
+      <a href="#/"><img src="./logo.png" alt="logo" /></a>
     </div>
     <div>
       S<span class="logo-c">C</span>LINK
@@ -44,5 +44,6 @@
   <div></div>
   <div></div>
   <div></div>
-  <button>QA</button>
+  <button><a href="#/Q&A">QA</a></button>
+  <button><a href="#/Support">Support</a></button>
 </div>

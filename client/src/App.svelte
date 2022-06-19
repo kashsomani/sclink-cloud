@@ -11,8 +11,8 @@
   @tailwind utilities;
 
   :global(:root){
-   --primary-color: #22bef1;
-   --secondary-color: #00969b;
+   --primary-color: #07d2e5;
+   --secondary-color: #02acb2;
    --dark-background: rgba(52, 72, 73, 0.25);
   }
 

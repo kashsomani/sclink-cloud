@@ -2783,7 +2783,7 @@
     z-index: -1000;
   }
   .rain__drop path {
-    fill: #00969b;
+    fill: var(--secondary-color);
     opacity: var(--o);
     transform: scaleY(calc(var(--s) * 1.5));
     z-index: -1000;

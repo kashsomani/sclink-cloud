@@ -1,8 +1,6 @@
 <script>
   import Navbar from './components/shared/Navbar.svelte'
-  import Intro from './components/Home/Intro.svelte'
   import Footer from './components/shared/Footer.svelte'
-  import Details from './components/Home/Details/index.svelte'
   import Router from 'svelte-spa-router'
   import {routes} from './router'
 </script>

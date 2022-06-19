@@ -1,5 +1,5 @@
 <script>
-  import Rain from '../Rain.svelte'
+  import Rain from '../../../Rain.svelte'
 </script>
 
 <style lang="postcss" scoped>

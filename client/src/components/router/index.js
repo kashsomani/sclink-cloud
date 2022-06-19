@@ -1,4 +1,4 @@
-import Home from "./components/Home/Home.svelte"
+import Home from "../Home/Home.svelte"
 
 
 export const routes = {

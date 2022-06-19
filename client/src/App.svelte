@@ -2,7 +2,7 @@
   import Navbar from './components/shared/Navbar.svelte'
   import Footer from './components/shared/Footer.svelte'
   import Router from 'svelte-spa-router'
-  import {routes} from './router'
+  import {routes} from './components/router/index.js'
 </script>
 
 <style lang="postcss" global>

@@ -1,6 +1,6 @@
 <script>
-    import Intro from "./Intro/index.svelte"
-    import Details from "./Details"
+    import Intro from "./Intro/Intro.svelte"
+    import Details from "./Details/Details.svelte"
 </script>
 
 <Intro />

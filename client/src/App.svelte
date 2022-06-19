@@ -1,8 +1,10 @@
 <script>
-  import Navbar from './components/Navbar.svelte'
-  import Intro from './components/Intro.svelte'
-  import Footer from './components/Footer.svelte'
-  import Details from './components/Details/index.svelte'
+  import Navbar from './components/shared/Navbar.svelte'
+  import Intro from './components/Home/Intro.svelte'
+  import Footer from './components/shared/Footer.svelte'
+  import Details from './components/Home/Details/index.svelte'
+  import Router from 'svelte-spa-router'
+  import {routes} from './router'
 </script>
 
 <style lang="postcss" global>
@@ -23,7 +25,6 @@
 </svelte:head>
 <main>
   <Navbar />
-  <Intro />
-  <Details />
+  <Router {routes}/>
   <Footer/>
 </main>

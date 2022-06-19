@@ -11,16 +11,17 @@
   #container {
     color: #00969b;
     border-bottom: 2px solid #00969b;
-    @apply p-2 px-4 m-0 h-20 grid grid-cols-12 place-items-center gap-0;
+    @apply p-2 px-4 m-0 h-20 grid grid-cols-12 place-items-center gap-3 rounded-xl;
   }
   .logo-c {
     font-family: 'Stick No Bills';
   }
   button{
     border: 2px solid #00969b;
-    @apply w-full text-white;
+    @apply w-full text-white rounded-xl;
   }
   button:hover{
+    color: #22bef1;
     background-color: rgba(31, 44, 71, 0.1);
     box-shadow: 0 0 10px #22bef1, 0 0 40px #22bef1, 0 0 80px #22bef1;
   }

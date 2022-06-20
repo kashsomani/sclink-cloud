@@ -8,14 +8,14 @@
     @apply mx-8 mb-6;
   }
   .detail{
-    background-color:rgba(2, 47, 45, 0.3);
+    background-color:var(--dark-background);
     @apply my-4 p-2 rounded;
   }
   #container {
     @apply mx-0 sm:text-xl pb-2 text-justify px-6;
   }
   .heading {
-    border-bottom: 3px solid #00969b;
+    border-bottom: 3px solid var(--secondary-color);
     @apply mx-4 mb-2 text-xl;
   }
   img {

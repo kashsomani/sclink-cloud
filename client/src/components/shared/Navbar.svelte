@@ -9,20 +9,22 @@
     @apply grid grid-cols-1 place-items-center;
   }
   #container {
-    color: #00969b;
-    border-bottom: 2px solid #00969b;
-    @apply p-2 px-4 m-0 h-20 grid grid-cols-12 place-items-center gap-0;
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    @apply p-2 px-4 m-0 h-20 grid grid-cols-12 place-items-center gap-3;
   }
   .logo-c {
     font-family: 'Stick No Bills';
   }
   button{
-    border: 2px solid #00969b;
-    @apply w-full text-white;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    @apply w-full rounded-2xl p-1;
   }
   button:hover{
-    background-color: rgba(31, 44, 71, 0.1);
-    box-shadow: 0 0 10px #22bef1, 0 0 40px #22bef1, 0 0 80px #22bef1;
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 0 10px var(--primary-color), 0 0 40px var(--primary-color), 0 0 80px var(--primary-color);
   }
 </style>
 

@@ -23,7 +23,7 @@
   .emphasis {
     font-size: xxx-large;
     font-weight: 800;
-    color: #00969b;
+    color: var(--secondary-color);
   }
   div {
     @apply grid grid-cols-1 place-items-center;

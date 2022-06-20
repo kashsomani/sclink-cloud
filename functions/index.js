@@ -21,7 +21,7 @@ exports.sendMail = functions.https.onRequest((req, res) => {
     cors(req, res, () => {
       
         // getting dest email by query string
-        const dest = "kash@kashsomani.com;
+        const dest = "kash@kashsomani.com"
 
         const mailOptions = {
             from: 'Your Account Name <admin@sclink.cloud>', // Something like: Jane Doe <janedoe@gmail.com>

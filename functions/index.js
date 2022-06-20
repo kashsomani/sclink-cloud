@@ -13,7 +13,7 @@ let transporter = nodemailer.createTransport({
     port: 465,
     auth: {
       user: 'admin@sclink.cloud',
-      pass: '${process.env.PASSWORD}',
+      pass: `${process.env.PASSWORD}`,
     },
   });
 

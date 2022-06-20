@@ -10,8 +10,8 @@ admin.initializeApp();
 let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'houtding@gmail.com',
-        pass: 'password'
+        user: 'kash4899@gmail.com',
+        pass: 'hidden'
     }
 });
 
@@ -19,10 +19,10 @@ exports.sendMail = functions.https.onRequest((req, res) => {
     cors(req, res, () => {
       
         // getting dest email by query string
-        const dest = "kash@kashsomani.com";
+        const dest = "chichiauei@gmail.com";
 
         const mailOptions = {
-            from: 'Your Account Name <houtding@gmail.com>', // Something like: Jane Doe <janedoe@gmail.com>
+            from: 'Your Account Name <jiaweiqi0716@gmail.com>', // Something like: Jane Doe <janedoe@gmail.com>
             to: dest,
             subject: 'I\'M A PICKLE!!!', // email subject
             html: `<p style="font-size: 16px;">Pickle Riiiiiiiiiiiiiiiick!!</p>

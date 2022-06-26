@@ -7,10 +7,12 @@ admin.initializeApp();
 /**
 * Here we're using Gmail to send 
 */
-let transporter = nodemailer.createTransport({
-    service: 'gmail',
+const transporter = nodemailer.createTransport({
+    host: 'smtp.zoho.com',
+    port: 465,
+    secure: true, // use SSL
     auth: {
-        user: 'kash4899@gmail.com',
+        user: "admin@sclink.cloud",
         pass: `${process.env.PASSWORD}`
     }
 });
@@ -22,7 +24,7 @@ exports.sendMail = functions.https.onRequest((req, res) => {
         const dest = "chichiauei@gmail.com";
 
         const mailOptions = {
-            from: 'Your Account Name <jiaweiqi0716@gmail.com>', // Something like: Jane Doe <janedoe@gmail.com>
+            from: 'Your Account Name <admin@sclink.cloud>', // Something like: Jane Doe <janedoe@gmail.com>
             to: dest,
             subject: 'I\'M A PICKLE!!!', // email subject
             html: `<p style="font-size: 16px;">Pickle Riiiiiiiiiiiiiiiick!!</p>

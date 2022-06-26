@@ -24,11 +24,6 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-export const addContactInfor = async () => {
-    await setDoc(doc(db, "Messages", "Individual"), {
-        Name: {Name},
-        Email: {Email},
-        Subject: {Subject},
-        Message: {Message}
-    });
+export const addContactInformation = async (contactFormMessage) => {
+    await setDoc(doc(db, "Messages", "Individual"), contactFormMessage);
 }

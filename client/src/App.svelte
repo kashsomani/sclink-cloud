@@ -3,6 +3,7 @@
   import Footer from './components/shared/Footer.svelte'
   import Router from 'svelte-spa-router'
   import {routes} from './components/router/index.js'
+  import {addShit} from './firebase'
 </script>
 
 <style lang="postcss" global>
@@ -29,6 +30,7 @@
 </svelte:head>
 <main>
   <Navbar />
+  <button on:click={addShit}> add shit</button>
   <Router {routes}/>
   <Footer/>
 </main>

@@ -7,15 +7,17 @@ admin.initializeApp();
 /**
 * Here we're using Gmail to send 
 */
-let transporter = nodemailer.createTransport({
+const transporter = nodemailer.createTransport({
     host: 'smtp.zoho.com',
-    secure: true,
     port: 465,
+    secure: true, // use SSL
     auth: {
-      user: 'admin@sclink.cloud',
-      pass: `${process.env.PASSWORD}`,
-    },
-  });
+        user: "admin@sclink.cloud",
+        pass: `${process.env.PASSWORD}`
+    }
+});
+
+
 
 exports.sendMail = functions.https.onRequest((req, res) => {
     cors(req, res, () => {

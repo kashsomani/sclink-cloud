@@ -6,6 +6,6 @@ export const routes = {
     // Exact path
     '/': Home,
     '/support': Support,
-    '/Q&A': QA
+    '/qa': QA
 
 }

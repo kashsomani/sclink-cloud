@@ -1,5 +1,4 @@
 <script>
-    import App from "../../../App.svelte";
 
     import { addContactInformation } from "../../../firebase.js";
 
